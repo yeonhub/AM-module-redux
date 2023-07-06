@@ -72,6 +72,7 @@ export const staffSlice = createSlice({
                 [name]: value,
             };
         },
+
         resetForm(state, action) {
             state.name = '';
             state.job = '';

@@ -19,7 +19,7 @@ const Staff = () => {
                     <button onClick={() => dispatch(allDelStaff())}>전체 삭제</button>
                     <button onClick={() => dispatch(resetStaff())}>초기화</button>
                 </p>
-                <button className='add'  onClick={()=>dispatch(onAdd())}>명단 추가</button>
+                <button className='add' onClick={() => dispatch(onAdd())}>명단 추가</button>
                 {
                     isAdd && <StaffForm />
                 }
