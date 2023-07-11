@@ -18,13 +18,14 @@ src	┌	staff   ┌   Staff.jsx
 			└	index.jsx
 
 ```
+
 <br/>
 
 ### 데이터 관리
 
 기존 javascript나 react에선 직원 명단의 data를 js 파일로 따로 저장해 관리했지만 redux를 사용할 땐 관리자가 있는 staffSlice.jsx에서 관리했다.
 
-```java
+```javascript
 const initialState = {
 
 	// 명단 추가 컴포넌트를 보이기 / 숨기기에 사용하는 상태변수 isADD
@@ -48,6 +49,7 @@ const initialState = {
     ]
 }
 ```
+
 <br/>
 
 ### 함수 전역 관리
