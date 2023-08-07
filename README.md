@@ -1,7 +1,5 @@
 # AM-module-redux
 
-<img src='./'>
-
 [React 페이지](https://yeonhub.github.io/AM-module-react/)
 
 <br/>
